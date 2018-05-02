@@ -64,3 +64,8 @@ time {
 #profile-pic {
   width: 150px;
 }
+
+#footer {
+  font-size: 1em;
+  color: #999;
+}
