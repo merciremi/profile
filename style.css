@@ -1,0 +1,66 @@
+html:before {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 10px;
+  content: '';
+  display: block;
+  min-height: 100%;
+  height: 100%;
+  background: #f64747;
+}
+
+body {
+  margin: 5%;
+  color: rgb(10, 10, 10);
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1em;
+  line-height: 2em;
+}
+
+h1, h2, h3 {
+  font-family: 'Copse', monospace;
+  font-weight: bold;
+}
+
+a, a:visited, a:active {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f64747;
+}
+
+ul {
+  margin-left: -20px;
+  list-style-type: square;
+}
+
+time {
+  font-style: normal;
+  font-size: 11px;
+  background: #eee;
+  padding: 3px 6px;
+  font-weight: bold;
+  color: #999;
+  position: relative;
+  top: -1px;
+  margin-left: 4px;
+  border-radius: 3px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.french-post::after {
+  content: "\01F1EB \01F1F7";
+  margin-left: 5px;
+}
+
+#profile-pic {
+  width: 150px;
+}
